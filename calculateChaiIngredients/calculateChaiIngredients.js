@@ -20,7 +20,7 @@ function calculateChaiIngredients(numberOfCups){
 const input=prompt("Karibu! How many cups of Chai Bora would you like to make?");
 const numberOfCups = Number(input);
 
-if(!NaN(numberOfCups) && numberOfCups>0){
+if(!isNaN(numberOfCups) && numberOfCups>0){
     calculateChaiIngredients(numberOfCups)
 }
 else{
