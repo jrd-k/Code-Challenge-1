@@ -3,7 +3,7 @@ function estimateTransactionFee(amountToSend){
     const transactionfee=amountToSend*.015;
     const maxfee=(70);
     const minfee=(10);
-    const transactionFee = Math.min(Math.max(rawFee, minFee), maxFee);
+    const transactionFee = Math.min(Math.max(transactionfee, minfee), minfee);
 
     //output
     console.log(`Sending KES${amountToSend}:`);
